@@ -19,4 +19,8 @@ sin generar ningún tipo de fallo y de forma rápida.
 # TERMINAL
  Se define como Terminal, aunque también es conocido bajo el nombre de Consola, a todo dispositivo electrónico que forma parte del    Hardware de un ordenador, y que tiene la funcionalidad básica de ingresar o mostrar los datos que se encuentran dentro de una computadora o en un determinado sistema de computación. 
  
-
+# Comandos básicos de Git para fuardar archivos en un repositorio local
+* El comando *git init* permite iniciar nuestro repositorio
+* El comando *git add* hace que el repositorio detecte la existencia de un archivo o sus últimos cambios en el mismo. Con *git add README.md* le digo a git que detecte el archivo con el nombre **README.md**; si utilizo *git add .* git detectará todos los archivos que se encuentre en la carpeta.
+* El comando *git commit* es el que permite guardar los cambios realizados en el repositorio. Adicionalmente, se puede agregar un mensaje al commit usando este argumento *-m "Mensaje del commit"*; la mejor forma de hacer un commit es la siguiente: *git commit -m "Primer commit"*, siempre agregandole un mensaje informado los cambios que fueron realizados en dicho commit.
+* El comando *git status* muestra el estado en el que se encuantra Git, estos estados pueden si se han detectados cambios en ciertos archivos.
